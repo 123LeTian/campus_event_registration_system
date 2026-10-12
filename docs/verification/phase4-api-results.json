@@ -1,0 +1,19 @@
+{
+  "date": "2026-10-10T11:29:44.657Z",
+  "backend": "http://127.0.0.1:5173",
+  "passed": true,
+  "eventIds": [
+    4,
+    5
+  ],
+  "title": "2026校园科技文化节 API验收 1791631784337",
+  "checks": [
+    "Three seeded roles login successfully",
+    "Anonymous list/detail rejected",
+    "Organizer creates Chinese event; complete computed fields returned",
+    "Student cannot create, edit, delete",
+    "Organizer edit persists and student reads updated detail",
+    "Organizer own-only management; foreign edits/deletes rejected; admin sees both",
+    "Admin edits/deletes others; deleted events absent from list and detail"
+  ]
+}

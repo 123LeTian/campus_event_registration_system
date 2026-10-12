@@ -1,0 +1,24 @@
+{
+  "date": "2026-10-10T11:30:11.228Z",
+  "frontend": "http://127.0.0.1:5173",
+  "backend": "http://localhost:8080",
+  "nativeProxy": true,
+  "passed": true,
+  "checks": [
+    "Organizer login via UI",
+    "Empty form rejected",
+    "Invalid time order rejected",
+    "Create saves through API and appears in management",
+    "Edit persists and detail displays updated fields",
+    "Hall uses backend event data",
+    "Desktop/mobile layouts have no horizontal page overflow",
+    "Delete confirmation cancel preserves event",
+    "Confirmed deletion removes event from list",
+    "Deleted event detail returns 404",
+    "Student management entry hidden; all three management routes blocked",
+    "Student create/update/delete rejected by real backend",
+    "Admin can enter management",
+    "No browser page errors"
+  ],
+  "errors": []
+}

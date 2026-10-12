@@ -1,0 +1,20 @@
+spring:
+  application:
+    name: campus-event-backend
+  profiles:
+    active: dev
+
+server:
+  port: 8080
+
+app:
+  jwt:
+    # Local development placeholder only. Set JWT_SECRET in real demo or production.
+    secret: ${JWT_SECRET:local-development-secret-change-me-local-development-secret-change-me}
+    expiration-ms: ${JWT_EXPIRATION_MS:7200000}
+  ai:
+    api-key: ${AI_API_KEY:}
+    model: ${AI_MODEL:gpt-4o-mini}
+    base-url: ${AI_BASE_URL:https://api.openai.com/v1/chat/completions}
+    mock-enabled: ${AI_MOCK_ENABLED:false}
+    timeout-ms: ${AI_TIMEOUT_MS:15000}

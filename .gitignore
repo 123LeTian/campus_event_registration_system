@@ -1,0 +1,19 @@
+# Java / Maven
+/backend/target/
+.classpath
+.project
+.settings/
+
+# Node / Vite
+/frontend/node_modules/
+/frontend/dist/
+/frontend/*.tsbuildinfo
+/frontend/vite.config.js
+/frontend/vite.config.d.ts
+*.log
+
+# IDE and OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
